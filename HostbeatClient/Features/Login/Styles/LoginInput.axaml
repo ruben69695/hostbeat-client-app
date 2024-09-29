@@ -1,0 +1,11 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style Selector="TextBox.Login">
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="FontSize" Value="18" />
+        <Setter Property="MinWidth" Value="350" />
+        <Setter Property="Height" Value="60" />
+    </Style>
+
+</Styles>

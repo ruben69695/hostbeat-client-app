@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostbeatClient", "HostbeatClient\HostbeatClient.csproj", "{07986133-9462-4C9F-A5A2-752B6299CC4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostbeatClient.Core", "HostbeatClient.Core\HostbeatClient.Core.csproj", "{412A9510-9C11-44A0-B044-4A33BD8CCAB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hostbeat.Services", "Hostbeat.Services\Hostbeat.Services.csproj", "{23E056C7-5A22-436E-84D3-08C0F1393879}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07986133-9462-4C9F-A5A2-752B6299CC4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07986133-9462-4C9F-A5A2-752B6299CC4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07986133-9462-4C9F-A5A2-752B6299CC4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07986133-9462-4C9F-A5A2-752B6299CC4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{412A9510-9C11-44A0-B044-4A33BD8CCAB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{412A9510-9C11-44A0-B044-4A33BD8CCAB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{412A9510-9C11-44A0-B044-4A33BD8CCAB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{412A9510-9C11-44A0-B044-4A33BD8CCAB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23E056C7-5A22-436E-84D3-08C0F1393879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23E056C7-5A22-436E-84D3-08C0F1393879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23E056C7-5A22-436E-84D3-08C0F1393879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23E056C7-5A22-436E-84D3-08C0F1393879}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

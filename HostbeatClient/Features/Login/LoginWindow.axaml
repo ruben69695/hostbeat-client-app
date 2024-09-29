@@ -1,0 +1,53 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:login="clr-namespace:HostbeatClient.Features.Login"
+        mc:Ignorable="d"
+        Height="455"
+        Width="528"
+        MinWidth="528"
+        MinHeight="455"
+        x:Class="HostbeatClient.Features.Login.LoginWindow"
+        x:DataType="login:LoginWindowViewModel"
+        Background="{DynamicResource Primary}"
+        VerticalContentAlignment="Center"
+        HorizontalContentAlignment="Center"
+        Title="Hostbeat Client">
+    
+    <Window.Styles>
+        <StyleInclude Source="Styles/LoginButton.axaml" />
+        <StyleInclude Source="Styles/LoginInput.axaml" />
+    </Window.Styles>
+    
+    <Design.DataContext>
+        <login:LoginWindowViewModel/>
+    </Design.DataContext>
+    
+    <StackPanel Spacing="25">
+        <StackPanel Spacing="8">
+            <TextBlock Text="Sign In" FontSize="40" />
+            <TextBlock Text="Login into your account" FontSize="14" />
+        </StackPanel>
+        <TextBox Classes="Login" Watermark="Email">
+            <TextBox.InnerLeftContent>
+                <Border Margin="0 0 16 0">
+                    <Image Source="{DynamicResource EmailSvg}" />
+                </Border>
+            </TextBox.InnerLeftContent>
+        </TextBox>
+        <TextBox Name="PasswordInput" Classes="Login" Watermark="Password">
+            <Interaction.Behaviors>
+                <ExecuteCommandOnKeyDownBehavior Key="Enter" Command="{Binding Login}" />
+            </Interaction.Behaviors>
+            <TextBox.InnerLeftContent>
+                <Border Margin="0 0 16 0">
+                    <Image Source="{DynamicResource KeySvg}" />
+                </Border>
+            </TextBox.InnerLeftContent>
+        </TextBox>
+        <Button Classes="Primary Login"
+                Width="200" Height="60"
+                Content="Login" />
+    </StackPanel>
+</Window>
