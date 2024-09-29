@@ -4,6 +4,9 @@ using System.Net.Http;
 
 namespace Hostbeat.Services;
 
+/// <summary>
+/// Base service to inherit in every class to access to the Hostbeat API.
+/// </summary>
 public class BaseService
 {
     private string _baseAddress;

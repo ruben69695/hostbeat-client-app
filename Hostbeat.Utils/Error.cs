@@ -1,4 +1,4 @@
-namespace Hostbeat.Services.Utils;
+namespace Hostbeat.Utils;
 
 public sealed class Error(string code, string description)
 {

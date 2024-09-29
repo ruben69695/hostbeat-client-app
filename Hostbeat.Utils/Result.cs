@@ -1,6 +1,6 @@
 using System;
 
-namespace Hostbeat.Services.Utils;
+namespace Hostbeat.Utils;
 
 public class Result
 {

@@ -1,4 +1,4 @@
-namespace Hostbeat.Services.Enums;
+namespace Hostbeat.Application.Enums;
 
 public enum HostStatusValue
 {

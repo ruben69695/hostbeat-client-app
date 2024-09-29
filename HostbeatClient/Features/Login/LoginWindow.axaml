@@ -13,6 +13,7 @@
         Background="{DynamicResource Primary}"
         VerticalContentAlignment="Center"
         HorizontalContentAlignment="Center"
+        Icon="/Assets/hostbeat-logo.ico"
         Title="Hostbeat Client">
     
     <Window.Styles>

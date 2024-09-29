@@ -7,16 +7,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="System.Text.Json" Version="8.0.4" />
+      <PackageReference Include="MediatR" Version="12.4.1" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Hostbeat.Application\Hostbeat.Application.csproj" />
       <ProjectReference Include="..\Hostbeat.Utils\Hostbeat.Utils.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Hosts\Errors\" />
     </ItemGroup>
 
 </Project>

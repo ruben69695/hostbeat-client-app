@@ -1,8 +1,8 @@
-using System;
+﻿using System;
 
-namespace Hostbeat.Services.Features.CreateHost;
+namespace Hostbeat.Application.Features.CreateHost;
 
-public class HostCreatedResponse
+public class HostCreatedDto
 {
     public Guid Id { get; set; }
     public string Name { get; set; } = null!;
