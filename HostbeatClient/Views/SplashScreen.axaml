@@ -1,0 +1,27 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModels="clr-namespace:HostbeatClient.ViewModels"
+        mc:Ignorable="d"
+        d:DesignWidth="620"
+        d:DesignHeight="350"
+        Width="620"
+        Height="350"
+        x:Class="HostbeatClient.Views.SplashScreen"
+        SystemDecorations="None"
+        Topmost="True"
+        WindowStartupLocation="CenterScreen"
+        ExtendClientAreaToDecorationsHint="True"
+        ExtendClientAreaChromeHints="NoChrome"
+        ExtendClientAreaTitleBarHeightHint="0"
+        Background="{DynamicResource Primary}"
+        Padding="50"
+        Icon="/Assets/hostbeat-logo.ico"
+        x:DataType="viewModels:SplashScreenViewModel">
+    <Design.DataContext>
+        <viewModels:SplashScreenViewModel/>
+    </Design.DataContext>
+    
+    <Image Name="RootImage" Width="620" Height="350" />
+</Window>

@@ -1,5 +1,6 @@
 <ResourceDictionary xmlns="https://github.com/avaloniaui"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=System.Runtime">
     <ResourceDictionary.ThemeDictionaries>
         <ResourceDictionary x:Key="Dark">
             <SolidColorBrush x:Key="Primary">#27292e</SolidColorBrush>
@@ -13,6 +14,7 @@
             <SolidColorBrush x:Key="TextColorSecondary">#cccdd7</SolidColorBrush>
             <SvgImage x:Key="KeySvg">avares://HostbeatClient/Assets/key_dark.svg</SvgImage>
             <SvgImage x:Key="EmailSvg">avares://HostbeatClient/Assets/email_dark.svg</SvgImage>
+            <system:String x:Key="SplashScreenPath">avares://HostbeatClient/Assets/hostbeat-dark-splash-screen.png</system:String>
         </ResourceDictionary>
         <ResourceDictionary x:Key="Light">
             <SolidColorBrush x:Key="Primary">#f5f5f5</SolidColorBrush>
@@ -26,6 +28,7 @@
             <SolidColorBrush x:Key="TextColorSecondary">#637381</SolidColorBrush>
             <SvgImage x:Key="KeySvg">avares://HostbeatClient/Assets/key_light.svg</SvgImage>
             <SvgImage x:Key="EmailSvg">avares://HostbeatClient/Assets/email_light.svg</SvgImage>
+            <system:String x:Key="SplashScreenPath">avares://HostbeatClient/Assets/hostbeat-light-splash-screen.png</system:String>
         </ResourceDictionary>
     </ResourceDictionary.ThemeDictionaries>
 </ResourceDictionary>

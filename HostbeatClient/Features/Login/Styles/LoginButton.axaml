@@ -7,6 +7,7 @@
         <Setter Property="FontWeight" Value="Medium" />
         <Setter Property="Width" Value="200" />
         <Setter Property="Height" Value="75" />
+        <Setter Property="Foreground" Value="#fefffe" />
         
         <Style Selector="^:pointerover /template/ ContentPresenter#PART_ContentPresenter">
             <Setter Property="FontSize" Value="26.5" />

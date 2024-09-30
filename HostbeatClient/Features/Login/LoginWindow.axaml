@@ -8,6 +8,7 @@
         Width="528"
         MinWidth="528"
         MinHeight="455"
+        WindowStartupLocation="CenterScreen"
         x:Class="HostbeatClient.Features.Login.LoginWindow"
         x:DataType="login:LoginWindowViewModel"
         Background="{DynamicResource Primary}"
